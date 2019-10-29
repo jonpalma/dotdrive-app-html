@@ -118,7 +118,10 @@
                 </a>
                 <ul class="side-nav-second-level" aria-expanded="false">
                     <li>
-                        <a href="report.php">Report</a>
+                        <a href="report-1.php">Report 1</a>
+                    </li>
+                    <li>
+                        <a href="report-2.php">Report 2</a>
                     </li>
                 </ul>
             </li>

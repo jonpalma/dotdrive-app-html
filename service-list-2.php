@@ -60,23 +60,50 @@
 </div> <!-- end table-responsive-->
 
 <div class="modal fade" id="finish-modal" tabindex="-1" role="dialog" aria-labelledby="employee-training-modal-label" aria-hidden="true">
-    <div class="modal-dialog modal-sm">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="employee-training-modal-label">Next Service</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            </div>
-            <div class="modal-body">
-
-                <div class="form-group">
-                    <label>Date</label>
-                    <input type="text" class="form-control date" id="date" data-toggle="date-picker"
-                           data-single-date-picker="true" required>
+                <div class="modal-header">
+                    <h4 class="modal-title" id="employee-training-modal-label">Finish Work Order</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                 </div>
+                <div class="modal-body">
 
-                <button class="btn btn-block btn-success" data-dismiss="modal">Save</button>
+                    <form id="finishWO" action="http://app.dotdrive.net/service/finish" enctype="multipart/form-data">
+                        <div class="text-center">
+                            <div class="spinner-border m-2 d-none" role="status" id="loader">
+                                <span class="sr-only">Loading...</span>
+                            </div>
+                        </div>
 
+                        <div class="row">
+                            <div class="col-4"><label>Description</label></div>
+                            <div class="col-4"><label>Comments</label></div>
+                            <div class="col-2"><label>Total</label></div>
+                            <div class="col-2"><label>Invoice</label></div>
+                        </div>
+
+                        <div id="services-container">
+                            <div class="row mb-3">
+                                <div class="col-4"><input type="hidden" value="41" name="service_id[]"><textarea class="form-control" cols="30" rows="3" readonly="">test</textarea></div><div class="col-4"><textarea name="comments[]" class="form-control" cols="30" rows="3" required=""></textarea></div><div class="col-2"><input type="text" class="form-control" name="total[]" required=""></div><div class="col-2"><label for="invoice41" class="btn btn-primary"><i class="mdi mdi-cloud-upload"></i></label><input type="file" id="invoice41" name="invoice41" class="d-none"></div></div></div>
+
+                        <hr>
+
+                        <div class="row mb-4">
+                            <input type="hidden" id="wo_id" name="wo_id" value="31">
+                            <div class="col-6">
+                                <label for="start_date">Actual Start</label>
+                                <input type="text" class="form-control" single-date-picker="true" id="start_date" name="start_date" required="">
+                            </div>
+                            <div class="col-6">
+                                <label for="finished_date">Actual Completion</label>
+                                <input type="text" class="form-control" single-date-picker="true" id="finished_date" name="finished_date" required="">
+                            </div>
+                        </div>
+
+                        <button class="btn btn-block btn-success" type="submit">Save</button>
+                    </form>
+
+                </div>
             </div>
-        </div>
     </div>
 </div>
