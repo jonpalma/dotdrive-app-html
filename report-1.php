@@ -77,6 +77,7 @@
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                 </div>
                 <div class="modal-body">
+                    <p>WO #100 - 01/10/2019 - Truck 10 </p>
 
                     <form id="finishWO" action="http://app.dotdrive.net/service/finish" enctype="multipart/form-data">
 
