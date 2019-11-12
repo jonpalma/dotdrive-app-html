@@ -368,6 +368,19 @@ mark,
   padding: 0.2em;
   background-color: #fcf8e3; }
 
+
+.fas-support {
+  font-size: 70px;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  color: #727cf5;
+}
+
+.fas-text {
+  text-align: center;
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none; }
