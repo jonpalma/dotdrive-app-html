@@ -45,6 +45,7 @@
                                 <th>Date</th>
                                 <th>Assets</th>
                                 <th>Description</th>
+                                <th>Comments</th>
                                 <th>Invoice</th>
                                 <th>Total</th>
                             </tr>
@@ -55,6 +56,7 @@
                                 
                                 <td>Truck 10</td>
                                 <td><a href="#" data-toggle="modal" data-target="#finish-modal">Fith wheel rebuild kit for 1216, crank position center.</a></td>
+                                <td>Info de la nota</td>
                                 <td>XDER1010101</td>
                                 <td>$300.00</td>
                                 <td></td>

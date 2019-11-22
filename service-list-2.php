@@ -5,6 +5,7 @@
             <th>WO #</th>
             <th>Asset</th>
             <th>Service</th>
+            <th>Comments</th>
             <th>Scheluded Start</th>
             <th>Actual Start</th>
             <th>Finish</th>
@@ -23,6 +24,7 @@
                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
                 <div>Service 2</div>
             </td>
+            <td><a href="#">2</a></td>
             <td></td>
             <td></td>
             <td>
@@ -36,19 +38,7 @@
                 <div>Maintenance 1</div>
                 <div>Service 2</div>
             </td>
-            <td></td>
-            <td></td>
-            <td>
-                <button class="btn btn-rounded btn-info text-white pl-3 pr-3" data-toggle="modal" data-target="#finish-modal">Finish</button>
-            </td>
-        </tr>
-        <tr>
-            <td><a href="#">#6</a></td>
-            <td>Truck 2</td>
-            <td>
-                <div>Service 1</div>
-                <div>Maintenance 2</div>
-            </td>
+            <td><a href="#">2</a></td>
             <td></td>
             <td></td>
             <td>
