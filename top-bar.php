@@ -30,7 +30,6 @@
                             <small class="text-muted">1 min ago</small>
                         </p>
                     </a>
-
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                         <div class="notify-icon bg-info">
@@ -40,7 +39,6 @@
                             <small class="text-muted">5 hours ago</small>
                         </p>
                     </a>
-
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                         <div class="notify-icon">
@@ -50,7 +48,6 @@
                             <small>Hi, How are you? What about our next meeting</small>
                         </p>
                     </a>
-
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                         <div class="notify-icon bg-primary">
@@ -60,7 +57,6 @@
                             <small class="text-muted">4 days ago</small>
                         </p>
                     </a>
-
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                         <div class="notify-icon">
@@ -70,7 +66,6 @@
                             <small>Wow ! this admin looks good and awesome design</small>
                         </p>
                     </a>
-
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                         <div class="notify-icon bg-info">
@@ -87,7 +82,6 @@
                 <a href="javascript:void(0);" class="dropdown-item text-center text-primary notify-item notify-all">
                     View All
                 </a>
-
             </div>
         </li>
 
@@ -107,19 +101,16 @@
                 <div class=" dropdown-header noti-title">
                     <h6 class="text-overflow m-0">Welcome !</h6>
                 </div>
-
                 <!-- item-->
-                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                <a href="my-account.php" class="dropdown-item notify-item">
                     <i class="mdi mdi-account-circle"></i>
                     <span>My Account</span>
                 </a>
-
                 <!-- item-->
                 <a href="javascript:void(0);" class="dropdown-item notify-item">
                     <i class="mdi mdi-logout"></i>
                     <span>Logout</span>
                 </a>
-
             </div>
         </li>
 
@@ -127,16 +118,6 @@
     <button class="button-menu-mobile open-left disable-btn">
         <i class="mdi mdi-menu"></i>
     </button>
-    <div class="app-search">
-        <form>
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search...">
-                <span class="mdi mdi-magnify"></span>
-                <div class="input-group-append">
-                    <button class="btn btn-primary" type="submit">Search</button>
-                </div>
-            </div>
-        </form>
-    </div>
+
 </div>
 <!-- end Topbar -->
