@@ -111,6 +111,52 @@
 
                         <hr>
 
+                        <div class="row">
+                            <div class="col-md-5"><label>Description</label></div>
+                            <div class="col-md-5"><label>Comments</label></div>
+                            <div class="col-md-2"><label>Total</label></div>
+                            
+                        </div>
+
+                        <div id="services-container">
+                            <div class="row mb-3">
+                                <div class="col-md-5">
+                                    <input type="hidden" value="41" name="service_id[]">
+                                    <textarea class="form-control" cols="30" rows="3" readonly="">Test</textarea>
+                                </div>
+                                <div class="col-md-5">
+                                    <textarea name="comments[]" class="form-control" cols="30" rows="3" required=""></textarea>
+                                </div>
+                                <div class="col-md-2"><input type="text" class="form-control" name="total[]" required="">
+                                </div>
+                                <div class="col-12" id="invoice-title"><label>Invoice</label></div>
+                                <div class="col-md-4 input-group align-self-start">
+                                    <div class="input-group-prepend">
+                                        <label for="invoice20" class="btn btn-primary"><i class="mdi mdi-cloud-upload"></i></label>
+                                        <input type="file" id="invoice20" name="invoice20" class="d-none">
+                                    </div>
+                                    <a href="#" type="text" class="form-control btn btn-light text-truncate " target="_blank">service_22.pdf</a>
+                                </div>
+                                <div class="col-md-4 input-group align-self-start">
+                                    <div class="input-group-prepend">
+                                        <label for="invoice20" class="btn btn-primary"><i class="mdi mdi-cloud-upload"></i></label>
+                                        <input type="file" id="invoice20" name="invoice20" class="d-none">
+                                    </div>
+                                    <a href="#" type="text" class="form-control btn btn-light text-truncate " target="_blank">service_22.pdf</a>
+                                </div>
+                                <div class="col-md-4 input-group align-self-start">
+                                    <div class="input-group-prepend">
+                                        <label for="invoice20" class="btn btn-primary"><i class="mdi mdi-cloud-upload"></i></label>
+                                        <input type="file" id="invoice20" name="invoice20" class="d-none">
+                                    </div>
+                                    <a href="#" type="text" class="form-control btn btn-light text-truncate " target="_blank">service_22.pdf</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <hr>
+
                         <div class="row mb-4">
                             <input type="hidden" id="wo_id" name="wo_id" value="31">
                             <div class="col-6">

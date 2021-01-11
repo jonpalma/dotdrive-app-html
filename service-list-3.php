@@ -147,6 +147,93 @@
                            </div>
                         </div>
 
+                        <hr>
+
+                        <div class="row" id="titles">
+                            <div class="col-md-6"><label>Description</label></div>
+                            <div class="col-md-6"><label>Comments</label></div>
+                            
+                        </div>
+
+                        <div id="services-container">
+                           <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <input type="hidden" value="20" name="service_id[]">
+                                    <textarea class="form-control" cols="30" rows="3" readonly="">Transmission Repair</textarea>
+                                </div>
+                                <div class="col-md-6">
+                                    <textarea name="comments[]" class="form-control" cols="30" rows="3" maxlength="512" data-toggle="maxlength">Flavio clutch repair</textarea>
+                                </div>
+
+                            <div class="col-12" id="invoice-title"><label>Invoice</label></div>
+                                <div class="col-md-4 input-group align-self-start">
+                                    <div class="input-group-prepend">
+                                        <label for="invoice20" class="btn btn-primary"><i class="mdi mdi-cloud-upload"></i></label>
+                                        <input type="file" id="invoice20" name="invoice20" class="d-none">
+                                    </div>
+                                    <a href="#" type="text" class="form-control btn btn-light text-truncate " target="_blank">service_20.pdf</a>
+                                </div>
+                                <div class="col-md-4 input-group align-self-start">
+                                    <div class="input-group-prepend">
+                                        <label for="invoice20" class="btn btn-primary"><i class="mdi mdi-cloud-upload"></i></label>
+                                        <input type="file" id="invoice20" name="invoice20" class="d-none">
+                                    </div>
+                                    <a href="#" type="text" class="form-control btn btn-light text-truncate " target="_blank">service_21.pdf</a>
+                                </div>
+                                <div class="col-md-4 input-group align-self-start">
+                                    <div class="input-group-prepend">
+                                        <label for="invoice20" class="btn btn-primary"><i class="mdi mdi-cloud-upload"></i></label>
+                                        <input type="file" id="invoice20" name="invoice20" class="d-none">
+                                    </div>
+                                    <a href="#" type="text" class="form-control btn btn-light text-truncate " target="_blank">service_22.pdf</a>
+                                </div>
+                           </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="row" id="titles">
+                            <div class="col-md-6"><label>Description</label></div>
+                            <div class="col-md-6"><label>Comments</label></div>
+                            
+                        </div>
+
+                        <div id="services-container">
+                           <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <input type="hidden" value="20" name="service_id[]">
+                                    <textarea class="form-control" cols="30" rows="3" readonly="">Transmission Repair</textarea>
+                                </div>
+                                <div class="col-md-6">
+                                    <textarea name="comments[]" class="form-control" cols="30" rows="3" maxlength="512" data-toggle="maxlength">Flavio clutch repair</textarea>
+                                </div>
+
+                            <div class="col-12" id="invoice-title"><label>Invoice</label></div>
+                                <div class="col-md-4 input-group align-self-start">
+                                    <div class="input-group-prepend">
+                                        <label for="invoice20" class="btn btn-primary"><i class="mdi mdi-cloud-upload"></i></label>
+                                        <input type="file" id="invoice20" name="invoice20" class="d-none">
+                                    </div>
+                                    <a href="#" type="text" class="form-control btn btn-light text-truncate " target="_blank">service_20.pdf</a>
+                                </div>
+                                <div class="col-md-4 input-group align-self-start">
+                                    <div class="input-group-prepend">
+                                        <label for="invoice20" class="btn btn-primary"><i class="mdi mdi-cloud-upload"></i></label>
+                                        <input type="file" id="invoice20" name="invoice20" class="d-none">
+                                    </div>
+                                    <a href="#" type="text" class="form-control btn btn-light text-truncate " target="_blank"></a>
+                                </div>
+                                <div class="col-md-4 input-group align-self-start">
+                                    <div class="input-group-prepend">
+                                        <label for="invoice20" class="btn btn-primary"><i class="mdi mdi-cloud-upload"></i></label>
+                                        <input type="file" id="invoice20" name="invoice20" class="d-none">
+                                    </div>
+                                    <a href="#" type="text" class="form-control btn btn-light text-truncate " target="_blank"></a>
+                                </div>
+                           </div>
+                        </div>
+
+
                         <button class="btn btn-block btn-success" type="submit">Save</button>
                     </form>
 
